@@ -12,7 +12,7 @@ const SingleCountryCorona = (props) => {
       <p>Total Confirmed: {TotalConfirmed || 0}</p>
       <p>New Deaths: {NewDeaths || 0}</p>
       <p>Total Deaths: {TotalDeaths || 0}</p>
-      <Link to={`/corona-single/:${Country}`}>Details</Link>
+      <Link to={`/corona-single/${Country}`}>Details</Link>
     </div>
   );
 };
